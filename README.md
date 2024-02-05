@@ -7,14 +7,9 @@ In our grammar we have various limitations, where we find the following:
 
 The programing language must be polite: 
 	* Examples of valid sentences: 
-		* Robot please move 2 blocks ahead
-		* Robot please move 3 blocks ahead and then turn 90 degrees, then move 2 blocks
+		
 	* Examples of invalid sentences:
-		* Robot moves 2 blocks
-		* Robot moves 2 blocks quickly
-		* Move 2 blocks right now
-		* Robot  2 blocks moves
-		* Moves Robot 2 blocks and turn 89 degrees
+		
 
  
 * Compiler must read the sentence from a file.
