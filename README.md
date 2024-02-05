@@ -6,7 +6,7 @@ In our grammar we have various limitations, where we find the following:
   * TURN <either: {90,180,270,360}>
 
 * Programming language must be educated:
-Examples of valid sentences
+  Examples of valid sentences
 1.	Robot please move 2 blocks ahead
 2.	Robot please move 3 blocks ahead and then turn 90 degrees, then move 2 blocks
 3.	Robot pls move 1 block, and then turn 270 degrees
