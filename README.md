@@ -7,14 +7,18 @@ In our grammar we have various limitations, where we find the following:
 
 * The programing language must be polite: 
 	* Examples of valid sentences: 
-		* 1.	Robot please move 2 blocks ahead
+		* Robot please move 2 blocks ahead
 		* Robot please move 3 blocks ahead and then turn 90 degrees, then move 2 blocks
+   		* Robot pls move 1 block, and then turn 270 degrees
+  		* robot pls turn 360 degrees and move 9 blocks ahead
+  		* robot please turn 180 degrees
+    
 	* Examples of invalid sentences:
-		* Robot moves 2 blocks
-		* Robot moves 2 blocks quickly
-		* Move 2 blocks right now
-		* Robot  2 blocks moves
-		* Moves Robot 2 blocks and turn 89 degrees
+		* Robot please turn 180 degrees
+		* Robot pls move 2 degrees
+		* Robot please move 3 blocks ahead and then turn 89 degrees, then move 2 blocks
+		* robot pls turn 90 blocks
+		* robot pls turn 180 degrees ahead
 
  
 * Compiler must read the sentence from a file.
