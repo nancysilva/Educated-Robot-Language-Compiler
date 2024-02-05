@@ -29,7 +29,7 @@ These are incorrect because:
 
  
 * Compiler must read the sentence from a file.
-* The compiler must generate a file: 'instructions. asm' with list of instructions; However, when it finds that at least one sentence is incorrect, it deletes that same document.
+* The compiler must generate a file: 'instructions. asm' with list of instructions; however, when it finds that at least one sentence is incorrect, it deletes that same document.
 ```
 	MOV,2. 
 	MOV,3. TURN,90. MOV,2.
