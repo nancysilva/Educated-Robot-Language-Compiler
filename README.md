@@ -26,7 +26,17 @@ These are incorrect because:
 3. The CFG rule specifies that 'turn' can only be followed by 90-180-270-360 degrees.
 4. The 'turn' instruction is accepted when the word 'degrees' follows the number.
 5. When using degrees, you cannot use the word “ahead”, only in block/s.
+
  
 * Compiler must read the sentence from a file.
 * The compiler must generate a file: 'instructions. asm' with list of instructions; However, when it finds that at least one sentence is incorrect, it deletes that same document.
+```
+	MOV,2. 
+	MOV,3. TURN,90. MOV,2.
+	MOV,1. TURN,270.
+	TURN,360. MOV,9. 
+	MOV,3. TURN,90. MOV,2.
+	TURN,180.
+```
+
 
