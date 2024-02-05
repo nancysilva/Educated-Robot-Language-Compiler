@@ -3,13 +3,11 @@ This project seeks to create a programming language and its compiler through lex
 In our grammar we have various limitations, where we find the following:
 * Only accepts 2 types of instructions.
   * MOV <num of blocks to move>
-  * TURN <either: {90,180,270,360}>
-
-If the instruction leads the robot out of the boundaries of the matrix, the CPU should return an illegal instruction error. 
+  * TURN <either: {90,180,270,360}> 
 
 * The programing language must be polite: 
 	* Examples of valid sentences: 
-		* Robot please move 2 blocks ahead
+		* 1.	Robot please move 2 blocks ahead
 		* Robot please move 3 blocks ahead and then turn 90 degrees, then move 2 blocks
 	* Examples of invalid sentences:
 		* Robot moves 2 blocks
